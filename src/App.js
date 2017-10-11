@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
-import HelloWorld from './HelloWorld';
 import logo from './logo.svg';
 import './App.css';
 
+import HelloWorld from './HelloWorld';
+
 class App extends Component {
-  render() {
-    return <HelloWorld/>
-  }
+    render() {
+        return(
+            <div>
+                <HelloWorld nome="Mário Lucas"/>
+                <HelloWorld nome="Mundo"/>
+                <HelloWorld nome="lol"/>
+            </div>
+        );
+    }
 }
 
 export default App;

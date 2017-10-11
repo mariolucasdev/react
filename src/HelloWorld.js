@@ -2,6 +2,6 @@ import React from 'react';
 
 export default class HelloWorld extends React.Component {
     render() {
-        return <p>Hello World!</p>
+        return <h1>Olá {this.props.nome}!</h1>;
     }
 }
