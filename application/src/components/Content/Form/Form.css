@@ -1,0 +1,29 @@
+.form {
+    width: 300px;
+    margin: 50px auto;
+}
+
+.form h3 {
+    text-align: left;
+    color: #1abc9c;
+}
+
+.form input {
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #1abc9c;
+    outline: none;
+    font-weight: bold;
+    color: #1abc9c;
+}
+.form button {
+    width: 30%;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #16a085;
+    background-color: #1abc9c;
+    color: #fff;
+    font-weight: bold;
+}
