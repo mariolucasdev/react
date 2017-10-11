@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.title {
+    padding: 10px 0px 10px;
+    width: 100%;
+    background-color: #1abc9c;
+}
+.title h2 {
+    color: #fff;
+}
