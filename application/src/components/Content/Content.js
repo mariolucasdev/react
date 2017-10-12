@@ -9,7 +9,9 @@ class Content extends React.Component {
         return(
             <div>
                 <Form/>
-                <ContentItens/>
+                <ContentItens
+                    itens ='Nome'
+                />
             </div>
         );
     }

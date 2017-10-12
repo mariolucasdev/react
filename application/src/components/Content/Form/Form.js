@@ -5,8 +5,7 @@ class Form extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            value: '',
-            todo: ''
+            value: ''
         };
 
         this.handleChange = this.handleChange.bind(this);
@@ -14,14 +13,12 @@ class Form extends React.Component {
     }
 
     handleChange(event){
-        this.setState({value: event.target.value})
-        this.setState({todo: this.state.value});
+        this.setState({value: event.target.value});
     }
 
     handleSubmit(event){
-        alert('ToDo Enviado' + this.state.value)
-        event.preventDefault()
-
+        event.preventDefault();
+        // alert('ToDo Enviado' + this.state.value)
         //Before add function to add Item in ToDo List
     }
 
@@ -34,8 +31,6 @@ class Form extends React.Component {
                     <input type="text" value={this.state.value} onChange={this.handleChange} placeholder="Adicionar Tarefa"/>
                     <button id="btnAddItem">Adicionar</button>
                 </form>
-
-                <h1>{this.state.todo}</h1>
             </div>
         );
     }
