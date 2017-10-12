@@ -21,6 +21,8 @@ class Form extends React.Component {
     handleSubmit(event){
         alert('ToDo Enviado' + this.state.value)
         event.preventDefault()
+
+        //Before add function to add Item in ToDo List
     }
 
     render(){
