@@ -12,8 +12,7 @@ class ContentItens extends React.Component{
         return(
             <div>
                 <h2>Lista de Tarefas</h2>
-
-                <ul>{this.props.itens}</ul>
+                <ul>{this.state.itens}</ul>
             </div>
         );
     }
